@@ -1,4 +1,22 @@
-#hero {
+#Us .embed-responsive {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+#about-us {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+}
+#Us .container .row ul li span{
+  padding-left: 1rem;
+}
+#Us .container .row ul li span::before{
+  padding-left: 1rem;
+}
+#Us .container .row ul li span::after{
+  padding-left: 1rem;
+}#hero {
   background-color: #faf8f8;
   font-family: "Poppins", sans-serif;
 }
