@@ -1,3 +1,69 @@
+#hero {
+  background-color: #faf8f8;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#hero p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividad */
+/* Ajuste específico para pantallas pequeñas */
+@media (max-width: 576px) {
+  #hero .callTo-Buttons {
+    max-width: 150px; /* Tamaño más grande para garantizar visibilidad */
+  }
+}
+/* Estilo para aumentar el tamaño de las imágenes en la sección del héroe */
+
+#hero .callTo-Buttons {
+  max-width: 200px; /* Establece un tamaño adecuado para dispositivos grandes */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra el botón */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+}
+
+#hero .callTo-Buttons:hover {
+  transform: scale(1.05); /* Ampliación suave al pasar el mouse */
+}
+
+#hero .btn-primary {
+  max-width: 200px; /* Establece un tamaño adecuado para dispositivos grandes */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra el botón */
+
+  border-radius: 10px; /* Bordes redondeados */
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  background-color: #fdd007;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#hero .btn-primary:hover {
+  background-color: #03030e;
+  transform: scale(1.05); /* Amplía ligeramente al pasar el mouse */
+}
 #about-team .container .row .team-member img{
   width: 125px;
   height: 125px;
